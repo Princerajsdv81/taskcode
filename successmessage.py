@@ -8,6 +8,6 @@ s.login("shaileshchoudhary1999@gmail.com", "password")
 # message to be sent 
 message = "Server running"
 # sending the mail 
-s.sendmail("shaileshchoudhary1999@gmail.com", "shaileshchoudhary1999@gmail.com", message) 
+s.sendmail("sender", "reciever", message) 
 # terminating the session 
 s.quit()
