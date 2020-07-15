@@ -8,6 +8,6 @@ s.login("shaileshchoudhary1999@gmail.com", "19101996")
 # message to be sent 
 message = "Hey Developer,Website is not working. please check the code and push again"
 # sending the mail 
-s.sendmail("receiver_mail", "sender_mail", message) 
+s.sendmail("shaileshchoudhary1999@gmail.com", "shaileshchoudhary1999@gmail.com", message) 
 # terminating the session 
 s.quit()
